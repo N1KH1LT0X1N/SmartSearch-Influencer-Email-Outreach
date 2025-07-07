@@ -13,4 +13,4 @@ SmartReach is an AI-powered platform that helps you create personalized, multili
 
 - Connect with influencers by sending them automated mails.
 - A database of over 500+ influencers.
-- Seperate UI/UX for Managers and Influencers.
+- Seperate UI/UX for Managers and Influencers
