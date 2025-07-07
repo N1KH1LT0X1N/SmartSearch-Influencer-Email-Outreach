@@ -1,16 +1,44 @@
-# SmartSearch-Influencer-Email-Outreach
+# SmartReach AI ✨
 
-SmartReach is an AI-powered platform that helps you create personalized, multilingual email campaigns for influencers. With smart templates and real-time analytics, it boosts your global reach and response rates—making influencer marketing faster, smarter, and more effective.
+SmartReach is an AI-powered influencer outreach platform designed to simplify and automate the process of discovering, analyzing, and contacting influencers across multiple platforms. Built with a modern tech stack and real-world usability in mind, it is ideal for startups, marketers, and growth hackers.
 
-## Usage
 
-- clone into the repository `git clone https://github.com/darved2305/SmartSearch-Influencer-Email-Outreach.git`
-- change directory into the current folder `cd SmartSearch-Influencer-Email-Outreach`
-- to run the app, use `python app.py`
-- Make sure to pull the changes from time to time
+---
 
-## Features
+## 🚀 Features
 
-- Connect with influencers by sending them automated mails.
-- A database of over 500+ influencers.
-- Seperate UI/UX for Managers and Influencers
+- 🔍 **SmartSearch**: Discover influencers by category, platform, region, followers & engagement rate.
+- 📊 **Influencer Analytics**: View detailed dashboards including audience quality, niche match, and more.
+- 🤖 **SmartReach AI**: Generate personalized outreach emails/messages using AI.
+- 🛠️ **Workflow Automation**: Integrated with tools like n8n to trigger campaigns automatically.
+- 🌐 **Multi-Platform Support**: Works with Instagram, YouTube, LinkedIn, and more.
+
+
+---
+
+## 💻 Tech Stack
+
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: Flask
+- **ML/Analytics**: Python 
+- **Workflow**: n8n.io
+- **AI**: OpenAI API (for personalized message generation)
+
+---
+
+## 📽️ Demo Video
+
+👉 Watch our YouTube demo: [SmartReach Demo](https://youtu.be/EGEmPvWGKpw)
+
+---
+
+## 🏁 How to Use
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/your-username/SmartReach.git
+
+# 2. Navigate to project folder
+cd SmartReach
+
+# 3. Open index.html in browser
