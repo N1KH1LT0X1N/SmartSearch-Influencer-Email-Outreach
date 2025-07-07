@@ -1,13 +1,100 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../static/css/hero.css"
-    <title>SmartReach</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SmartReach - AI-Powered Campaigns</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/hero.css" />
 </head>
+
 <body>
-    <button id="loginredirect" data-url="{{ url_for('login') }}">Click me to go login page</button>
+    <section class="banner-design">
+        <div class="navbar">
+            <div class="logo">
+                <h2>SmartReach</h2>
+            </div>
+            <div class="login-btn">
+                <button id="loginredirect" data-url="{{ url_for('login') }}">Login</button>
+            </div>
+        </div>
+
+        <div class="content-container">
+            <h1>SmartReach<span>AI</span></h1>
+            <p>Power your influence with AI-driven precision</p>
+        </div>
+
+        <div class="graph-container">
+            <div class="graph-placeholder">
+                <div class="chart-bars">
+                    <div class="bar bar-1"></div>
+                    <div class="bar bar-2"></div>
+                    <div class="bar bar-3"></div>
+                    <div class="bar bar-4"></div>
+                    <div class="bar bar-5"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="abstracts-1">
+            <div class="floating-element element-1"></div>
+            <div class="floating-element element-2"></div>
+            <div class="floating-element element-3"></div>
+        </div>
+    </section>
+
+    <section class="team-section">
+        <div class="container">
+            <h2>Meet Our Team</h2>
+            <p class="team-subtitle">The brilliant minds behind SmartReach AI</p>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-avatar">
+                        <div class="avatar-placeholder">DV</div>
+                    </div>
+                    <h3>Darshan Ved</h3>
+                    <p class="role">Chief UI Breaker</p>
+                    <p class="description">Frontend magician with a love for clean UIs and caffeine ☕</p>
+                </div>
+
+                <div class="team-member">
+                    <div class="member-avatar">
+                        <div class="avatar-placeholder">VV</div>
+                    </div>
+                    <h3>Vraj Ved</h3>
+                    <p class="role">Pixel Perfectionist</p>
+                    <p class="description">Design maestro crafting pixels with precision and a touch of swag ✨</p>
+                </div>
+
+                <div class="team-member">
+                    <div class="member-avatar">
+                        <div class="avatar-placeholder">NP</div>
+                    </div>
+                    <h3>Nikhil Pise</h3>
+                    <p class="role">Chart Whisperer</p>
+                    <p class="description">Data detective decoding patterns while sipping cutting chai 🧠📊</p>
+                </div>
+
+                <div class="team-member">
+                    <div class="member-avatar">
+                        <div class="avatar-placeholder">HW</div>
+                    </div>
+                    <h3>Hetansh Waghela</h3>
+                    <p class="role">Graph Guru</p>
+                    <p class="description">Analytics beast who talks to graphs like they’re old friends 📈😎</p>
+                </div>
+            </div>
+
+    </section>
+
     <script src="{{ url_for('static', filename='js/hero.js') }}"></script>
 </body>
+
 </html>
