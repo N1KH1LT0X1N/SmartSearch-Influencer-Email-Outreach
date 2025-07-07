@@ -13,7 +13,7 @@
 
   <div class="container" id="container">
     <div class="form-container sign-up">
-      <form>
+      <form action="/login" method="POST">
         <h1>Create Account</h1>
         <div class="social-icons">
           <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
@@ -22,15 +22,15 @@
           <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
         </div>
         <span>or use your email for registration</span>
-        <input type="text" placeholder="Name">
-        <input type="email" placeholder="Email">
-        <input type="password" placeholder="Password">
-        <button>Sign Up</button>
+        <input type="text" placeholder="Username" name="register-name" required>
+        <input type="email" placeholder="Email" name="register-email" required>
+        <input type="password" placeholder="Password" name="register-password" required>
+        <button type="submit" id="register">Sign Up</button>
       </form>
     </div>
 
     <div class="form-container sign-in">
-      <form action="{{url_for('login')}}" method="POST">
+      <form action="/login" method="POST">
         <h1>Sign In</h1>
         <div class="social-icons">
           <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
@@ -39,10 +39,10 @@
           <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
         </div>
         <span>or use your email password</span>
-        <input type="text" placeholder="Username" name="username">
-        <input type="password" placeholder="Password" name="password">
+        <input type="text" placeholder="Username" name="username" required>
+        <input type="password" placeholder="Password" name="password" required>
         <a href="#">Forget Your Password?</a>
-        <button type="submit" value="Login">Sign In</button>
+        <button type="submit" id="login" value="Login">Sign In</button>
       </form>
     </div>
 
@@ -56,7 +56,7 @@
         <div class="toggle-panel toggle-right">
           <h1>Hello, Manager!</h1>
           <p>Join SmartSearch to manage and find top influencers with ease.</p>
-          <button class="hidden" id="register">Sign Up</button>
+          <button class="hidden" id="register-signup">Sign Up</button>
         </div>
       </div>
     </div>
